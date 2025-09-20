@@ -5,6 +5,7 @@ public class Myself {
 private int atm_pin = 1234;
 private int password = 1234;
 int bike_key = 12; // default variable
+public double pi = 3.14;
 public static void main(String[] args) {
 	Myself aishu = new Myself();
 	System.out.println("ATM pin: "+aishu.atm_pin);
